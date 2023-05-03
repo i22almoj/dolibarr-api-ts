@@ -6,7 +6,7 @@ Librería TypeScript para interactuar con la API REST de Dolibarr
 
 ### Instalación
 
-Crea una instancia de la clase principal indicando la URL de tu instalación de Dolibarr
+Instala el paquete en tu proyecto
 
 ```
 npm install dolibarr-api-ts
