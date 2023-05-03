@@ -1,8 +1,8 @@
 {
   "name": "dolibarr-api-ts",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Typescript library for interacting with Dolibarr REST API",
-  "main": "dist/dolibarr-api.min.js",
+  "main": "dist/dolibarr-api-ts.min.js",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development",

@@ -26,7 +26,7 @@ const username = 'exampleuser';
 const password = 'examplepassword';
 
 api.login(username, password).then(
-  (response){
+  (response) => {
     if(response)
        console.log('Login correcto');
     else
@@ -61,7 +61,7 @@ import { DolibarrAPI, Invoices } from 'dolibarr-api-ts';
 
 const invoices = new Invoices(api);
 
-invoices.find().find(
+invoices.find().then(
   (data) => {
     console.log(JSON.stringify(data));
   },
