@@ -1,6 +1,6 @@
 {
-  "name": "dolibarr-api-ts-test-3",
-  "version": "1.0.0",
+  "name": "dolibarr-api-ts",
+  "version": "0.0.5",
   "description": "Typescript library for interacting with Dolibarr REST API",
   "main": "dist/dolibarr-api.min.js",
   "scripts": {
