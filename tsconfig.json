@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "paths": {
+            "@dolibarr-api-ts/*": ["./src/*"]
+        }
+    }
+}
